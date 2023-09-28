@@ -22,6 +22,6 @@ def calc_cube(numbers):
         result.append(number*number*number)
     return result
 
-array = range(1,1000000)
+array = range(1,100000)
 out_square = calc_square(array)
 out_cube = calc_cube(array)
